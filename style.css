@@ -150,7 +150,7 @@
     left: -1.5%;
     top: 78%;
     color: black;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #text2{
@@ -162,7 +162,7 @@
     left: 1%;
     top: 59%;
     color: black;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #index-quote1{
     font-size: 14px;
@@ -172,7 +172,7 @@
     left: 1.3%;
     top: 72%;
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #index-quote2{
     font-size: 14px;
@@ -182,7 +182,7 @@
     left: 2%;
     top: 80%;
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .text1{
     width: 10%;
@@ -192,7 +192,7 @@
     position: absolute;
     left: 1%;
     top: 65%;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #quote1{
     font-size: 14px;
@@ -202,7 +202,7 @@
     left: -0.2%;
     top: 69%;
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #quote2{
     font-size: 14px;
@@ -212,7 +212,7 @@
     left: 1.5%;
     top: 84%;
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .text2{
     
@@ -223,7 +223,7 @@
     position: absolute;
     left: -1.5%;
     top: 70%;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .text1 a{
     color: black;
@@ -250,7 +250,7 @@
     left: -1.5%;
     top: 79%;
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .text2{
     width: 10%;
@@ -261,7 +261,7 @@
     left: 1%;
     top: 63%;
     color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #signature{
     width: 180px;
@@ -489,6 +489,7 @@
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 5px;
+    
 }
 /*Contact*/
 
@@ -534,7 +535,7 @@
     display: flex;
 }
 #head{
-        font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
         font-size: 18px;
         top: 44%;
         left: 28%;
@@ -543,7 +544,7 @@
 }
 #p1{
     width: 50%;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     top: 49%;
     left: 30%;
@@ -552,7 +553,7 @@
     text-align: left;
 }
 #quote3{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     top: 67.5%;
     left: 30%;
@@ -560,7 +561,7 @@
     padding-bottom: 20px;
 }
 #mail{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     top: 67.5%;
     left: 45%;
@@ -576,3 +577,45 @@
     
 }
 
+@media(min-width:1280px){
+    #polygon3
+    {
+        top: 85%;
+    }
+   #polygon6
+   {
+       top:650px;
+   }
+   #bars
+   {
+       padding: 24% 4%;
+   }
+   #icons{
+       top: 39%;
+   }
+   #line3{
+       top: 30%;
+   }
+   #work-img1{
+     top: 68.5%;
+   }
+   #work-img2{
+    top: 76.5%;
+   }
+   #illustration-img{
+       top:67.5%;
+   }
+   #illustration-title{
+       top: 500px;
+   }
+   #design-img{
+     top: 42%;
+   }
+   #design-title{
+       padding-top: 64%;
+   }
+   #home-img{
+    top: 480px;
+    left: 43%;
+   }
+}
