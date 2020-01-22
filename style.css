@@ -326,8 +326,6 @@
 #icons a{
     color: black;
 }
-#icons li:hover{
-}
 #left{
     width: 10%;
     height: 100%;
@@ -577,7 +575,7 @@
     
 }
 
-@media(min-width:1280px){
+@media(min-width:992px){
     #polygon3
     {
         top: 85%;
@@ -618,4 +616,30 @@
     top: 480px;
     left: 43%;
    }
+   .text1{
+       top: 78%;
+   }
+   .text2{
+    top: 64%;
+    }
+    #quote1{
+        left: 0.2%;
+    top: 71%;
+    }
+    #quote2{
+        left: 2%;
+    top: 80%;
+    }
+    #text2{
+        left: 1%;
+    top: 62%;
+    }
+    #index-quote1{
+        left: 1.7%;
+        top: 75%;
+    }
+    #index-quote2{
+        top: 77%;
+        left: 2.2%;
+    }
 }
