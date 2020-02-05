@@ -54,3 +54,56 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+
+const sr = ScrollReveal({
+   opacity:0,
+    distance: '100px',
+    reset: true
+});
+
+sr.reveal('#name',{
+    duration: 2000,
+    origin: 'top',
+    delay: 100,
+    distance: '50px'
+});
+sr.reveal('#role',{
+    duration: 4000,
+    origin: 'top',
+    delay: 2000,
+    distance: '0px'
+});
+
+sr.reveal('#home-img',{
+duration: 2000,
+delay: 800,
+origin: 'bottom',
+});
+
+sr.reveal('#text1',{
+duration: 2000,
+delay: 200,
+origin:'left'
+});
+
+sr.reveal('#text2',{
+    duration: 2000,
+    distance: '50px',
+delay: 1200,
+origin:'right'
+});
+
+sr.reveal('#index-quote1',{
+    duration: 2000,
+delay: 200,
+origin:'left'
+});
+
+sr.reveal('#index-quote2',{
+    duration: 2000,
+delay: 1200,
+distance: '50px',
+origin:'right'
+});
+
